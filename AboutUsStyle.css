@@ -1,0 +1,117 @@
+*
+{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+nav{
+width: 100%; 
+height: 15vh;
+background-image: url('FB_IMG_1635501593155.jpg');
+display: flex; 
+justify-content: space-between;
+align-items: center; 
+text-transform: uppercase;
+}
+
+nav .logo{
+  float: left;
+  padding: 35px;
+}
+nav .text{
+    float: left;
+    padding: 40px;
+    color: black;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    width: 100%; 
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+
+nav .menu{
+    width: 40%; 
+    display: flex; 
+    justify-content: space-around;
+}
+
+nav .menu  a {
+    width: 25%;
+    text-decoration: none; 
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+nav .menu  a:hover{
+    color: black;
+
+}
+nav .menu a:first-child{
+    color: white;
+    transition: 0.3s ease-in-out
+    
+}
+
+nav .menu a:hover{
+    color: black;
+}
+
+.hero
+{
+    width: 100%;
+    height: 140vh;
+    background-image: url("FB_IMG_1635501593155.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.description-container
+{
+    max-width: 900px;
+    margin: 50px auto 30px;
+    text-align: center;
+}
+main{
+    width: 120%;
+    height: 80vh;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.description-container p
+{
+    text-align: justify;
+    margin: 30px auto 20px;
+}
+h1
+{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+h4
+{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    font-size: 20px;
+}
+ h3
+{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+
+.description-container .floating-image
+{
+    max-width: 400px;
+}

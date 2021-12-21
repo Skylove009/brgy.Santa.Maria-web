@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 125vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("FB_IMG_1635501593155.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%; 
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+    float: left;
+    padding: 35px;
+}
+text{
+    float: left;
+    padding: 40px;
+    color: black;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    width: 100%; 
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(kampario.jpg);
+}
+.card1 a
+{
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 35px;
+    transition: all .5s ease;
+
+
+
+}
+.card1 .btnone{
+    background: black;
+    color: white;
+}
+
+.card .btnone:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+
+}
+.card2{
+    background-image: url(binanban.jpg);
+}
+.card2 a
+{
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 35px;
+    transition: all .5s ease;
+
+
+
+}
+.card2 .btnone{
+    background: black;
+    color: white;
+}
+
+.card .btnone:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+
+}
+.card3{
+    background-image: url(plaza.jpg);
+}
+.card3 a
+{
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 35px;
+    transition: all .5s ease;
+
+
+
+}
+.card3 .btnone{
+    background: black;
+    color: white;
+}
+
+.card .btnone:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+
+}
+.card4{
+    background-image: url(Church.jpg);
+}
+.card4 a
+{
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 35px;
+    transition: all .5s ease;
+
+
+
+}
+.card4 .btnone{
+    background: black;
+    color: white;
+}
+
+.card .btnone:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color:black;
+    text-shadow: 5px 5px 15px white;
+    text-transform: uppercase;
+}
+.card p{
+    color:white;
+    font-size: 15px;
+    text-shadow: 5px 5px 15px black;
+}
+nav ul li a:hover{
+    color: black;
+}
